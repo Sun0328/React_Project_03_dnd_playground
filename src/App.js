@@ -2,8 +2,10 @@ import React from 'react'
 import './App.css'
 import Draggable from './components/Draggable'
 import Droppable from './components/Droppable'
+import Zoo from './components/Zoo'
 
 export default function App() {
+
   const [box1, setBox1] = React.useState([
     {
       id: 1,
@@ -50,13 +52,17 @@ export default function App() {
 
   return (
     <div className='container'>
-      <h2>react-dnd Playground ---- </h2>
+      Example #1
+      <Zoo />
+      Example #2
       <Droppable text='Box 1' state={box1} handleDrop={handleBox1}>
         {box1.map(drag => <Draggable key={drag.id} id={drag.id} />)}
       </Droppable>
       <Droppable text='Box 2' state={box2} handleDrop={handleBox2}>
         {box2.map(drag => <Draggable key={drag.id} id={drag.id} />)}
       </Droppable>
+      Example #3
+      
     </div>
   )
 }
