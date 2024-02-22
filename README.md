@@ -8,7 +8,7 @@
 3. Example 3 -- Drag list items and change their order between two lists
 
 ## Deployment
-https://vercel.com/sun0328s-projects/react-project-03-dnd-playground
+(https://react-project-03-dnd-playground.vercel.app)
 
 ## Ref
 1. (https://github.com/react-dnd/react-dnd)
