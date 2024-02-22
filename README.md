@@ -1,6 +1,8 @@
-# Getting Started with react-dnd library
+# Getting Started with react-dnd and react-beautiful-dnd library
 
 ## Features
+Example 1 and 2 use react-dnd, Example 3 uses react-beautiful-dnd
+
 1. Example 1 -- Drag animal into the zoo box
 2. Example 2 -- Drag between two boxes
 3. Example 3 -- Drag list items and change their order
