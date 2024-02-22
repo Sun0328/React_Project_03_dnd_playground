@@ -3,6 +3,7 @@ import './App.css'
 import Draggable from './components/Draggable'
 import Droppable from './components/Droppable'
 import Zoo from './components/Zoo'
+import MySortableList from './components/MySortableList'
 
 export default function App() {
 
@@ -62,7 +63,7 @@ export default function App() {
         {box2.map(drag => <Draggable key={drag.id} id={drag.id} />)}
       </Droppable>
       Example #3
-      
+      <MySortableList />
     </div>
   )
 }

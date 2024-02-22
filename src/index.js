@@ -18,10 +18,8 @@ options: Optional. An options object used to configure the backend. This is depe
 */
 
 root.render(
-  <React.StrictMode>
-    <DndProvider backend={HTML5Backend}>
-      <App />
-    </DndProvider>
-  </React.StrictMode>
+  <DndProvider backend={HTML5Backend}>
+    <App />
+  </DndProvider>
 );
 
